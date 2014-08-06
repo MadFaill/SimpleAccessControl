@@ -1,0 +1,18 @@
+{
+    "name": "mad-tools/simple-access-control",
+    "description": "Simple php access control by roles and lists",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "MadFaill",
+            "email": "madfaill@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "psr-0": {
+            "AccessControl": "src/"
+        }
+    }
+}

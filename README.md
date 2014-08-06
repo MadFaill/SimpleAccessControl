@@ -1,4 +1,26 @@
-SimpleAccessControll
+SimpleAccessControl
 ====================
 
-Simple php access controll by roles and lists
+Исходя из названия - простой контроль доступа
+
+Из коробки:
+
+- Проверка доступа по ролям
+- Проверка доступа по групповым политикам
+- Проверка доступа по родителю объекта
+
+Библиотека распространяется **AS-IS** по лицензии [MIT](http://opensource.org/licenses/MIT).
+
+Установка
+=========
+
+```json
+    "require": {
+        "mad-tools/simple-access-control": "dev-master"
+    }
+```
+
+Использование
+=============
+
+Примеры использования можно посмотреть в `examples`.
