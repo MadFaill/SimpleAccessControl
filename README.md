@@ -15,8 +15,11 @@ SimpleAccessControl
 =========
 
 ```json
-    "require": {
-        "mad-tools/simple-access-control": "dev-master"
+    {
+        "require":
+        {
+            "mad-tools/simple-access-control": "dev-master"
+        }
     }
 ```
 
