@@ -1,6 +1,6 @@
 <?php
 /**
- * Project: SimpleAccessControll
+ * Project: SimpleAccessControl
  * User: MadFaill
  * Date: 06.08.14
  * Time: 18:06
@@ -8,11 +8,11 @@
  *
  */
 
-require __DIR__.'/../vendor/autoload.php';
-require __DIR__."/cls/User.php";
+require __DIR__.'/../tests/bootstrap.php';
 
 use AccessControl\Provider;
 use AccessControl\Enum\Role;
+use Tests\Objects\User;
 
 
 $user = new User("Sergey", 1, Role::ROLE_USER);

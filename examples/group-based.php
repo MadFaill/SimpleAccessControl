@@ -1,6 +1,6 @@
 <?php
 /**
- * Project: SimpleAccessControll
+ * Project: SimpleAccessControl
  * User: MadFaill
  * Date: 06.08.14
  * Time: 18:21
@@ -8,12 +8,12 @@
  *
  */
 
-require __DIR__.'/../vendor/autoload.php';
-require __DIR__."/cls/User.php";
+require __DIR__.'/../tests/bootstrap.php';
 
 use AccessControl\Provider;
 use AccessControl\Enum\Role;
 use AccessControl\Component\Group;
+use Tests\Objects\User;
 
 $permissions_list = array(
 	'edit.post' => 1
