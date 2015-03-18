@@ -1,6 +1,8 @@
 SimpleAccessControl
 ====================
 
+[![Build Status](https://travis-ci.org/MadFaill/SimpleAccessControl.svg?branch=master)](https://travis-ci.org/MadFaill/SimpleAccessControl)
+
 Исходя из названия - простой контроль доступа
 
 Из коробки:
